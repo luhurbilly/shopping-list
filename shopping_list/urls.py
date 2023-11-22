@@ -28,3 +28,4 @@ urlpatterns = [
     path('json/<int:id>/', show_json_by_id, name='show_json_by_id'), 
     path('auth/', include('authentication.urls')),
 ]
+
